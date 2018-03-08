@@ -5,4 +5,3 @@ path = 'data/episource.txt'
 
 
 def q03_remove_wordcount():
-

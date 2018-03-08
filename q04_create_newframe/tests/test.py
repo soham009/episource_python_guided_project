@@ -8,7 +8,7 @@ path = 'data/episource.txt'
 data = q04_create_newframe(path)
 
 features = list(q04_create_newframe(path)['words'])
-expected = ['Maberley', 'Holmes', 'Masser', 'matter']
+expected = ['Holmes', 'Masser', 'matter', 'Maberley']
 
 class TestRead_textfile(TestCase):
 
