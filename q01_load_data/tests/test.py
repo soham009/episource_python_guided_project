@@ -15,4 +15,4 @@ class TestRead_textfile(TestCase):
         self.assertEqual(len(arg), 1, "Expected argument(s) %d, Given %d" % (1, len(arg)))
 
     def test_return_length(self):
-        self.assertEqual(data[1],6227, "The Expected return length of words does not match with the given length of words")
+        self.assertEqual(data[1],6144, "The Expected return length of words does not match with the given length of words")
